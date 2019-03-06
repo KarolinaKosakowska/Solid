@@ -10,7 +10,15 @@ namespace AppMessanger
     {
         static void Main(string[] args)
         {
-            var messageOK= new AppMessanger.
+            var messageOK = new Messanger();
+            var message = new List<ISend>();
+            message.Add(new MMS());
+            message.Add(new Sms());
+            message.Add(new Email());
+            Console.WriteLine(messageOK.SendMessages(message));
+            Console.ReadKey();
+
+
 
 
         }

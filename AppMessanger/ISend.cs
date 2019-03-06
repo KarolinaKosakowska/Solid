@@ -2,6 +2,6 @@
 {
     interface ISend
     {
-        string Send(string message);
+        string Send();
     }
 }

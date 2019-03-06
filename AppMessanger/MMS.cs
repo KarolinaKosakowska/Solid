@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppMessanger
 {
-    class mms
+    class MMS:ISend
     {
         public string Send()
         {

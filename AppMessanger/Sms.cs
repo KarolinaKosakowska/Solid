@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AppMessanger
 {
-    class Sms
+    class Sms:ISend
     {
-        public string Send( message)
+        public string Send()
         {
             return "SMS";
         }
